@@ -23,7 +23,7 @@ From reading the source code, executing tests, to handling errors, every step is
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [repository_link]
+git clone https://github.com/keishon104/DeckhandAI.git
 ```
 
 ### Step 2: Install Dependencies
@@ -43,7 +43,7 @@ echo "OPENAI_API_KEY=your_api_key_here" > .env.local
 
 ### Execute the Main Script
 ```bash
-python main_script_name.py
+python deckhand.py
 ```
 
 **Follow the On-Screen Prompts:**
@@ -60,7 +60,3 @@ We welcome innovators! Fork the repository, enhance the code, and create a pull 
 ## License
 
 DeckhandAI is open and free, licensed under the MIT License. Dive in, explore, and contribute to the future of automated code testing.
-
----
-
-**Note:** Remember to replace `[repository_link]` and `main_script_name.py` with your actual repository link and main script name. Enjoy the automated testing experience with DeckhandAI!
