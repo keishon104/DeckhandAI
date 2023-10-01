@@ -1,21 +1,3 @@
-# # TODO: Create demo ready code. 
-# # Steps: 
-# ✅   1.) Complete a simple Python code (Calculator)
-# #   2.) Run DeckhandAI, with verbose mode enabled - Need to install a package called fire, it'll enable the code to become a CLI. 
-# ✅   3.) Input target file into system
-# ✅   4.) Deckhand determines the type of file [.py,.js,.ts]
-# ✅   5.) Deckhand reads file content
-# ✅   6.) Deckhand sends file contents to OpenAI with instructions to create a test file that tests all aspects of the code
-# ✅   7.) OpenAI generates testfile based on input file
-# #   8.) Deckhand ensures instructions from OpenAI are correct and according to specs. If not retry to get a correct result 
-# ✅   9.) Deckhand creates a folder and file for the OpenAI results generated. 
-# ✅   10.) Deckhand inputs generated code into file
-# ✅   11.) Deckhand automatically runs file to determine if it passes tests. 
-# Current Step --  12.) If code fails the test, the error code is resent to OpenAI to come up with code suggestions. If the code fails more than 3 times then terminate the program or ask for further context. 
-# #   13.) New code is input in file. 
-# #   14.) If code passes terminate the program. 
-
-
 import os
 import openai
 import subprocess
